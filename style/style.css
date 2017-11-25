@@ -1,0 +1,7 @@
+.post-list, .post-new {
+    margin: 10px 0;
+}
+
+.post-new .btn-secondary {
+    margin-right: 10px;
+}
