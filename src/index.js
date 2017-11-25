@@ -9,6 +9,7 @@ import reducers from './reducers';
 
 import PostList from './components/post-list';
 import PostNew from './components/post-new';
+import PostDetail from './components/post-detail';
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
@@ -18,6 +19,7 @@ ReactDOM.render(
       <div>
         <Switch>
           <Route path="/posts/new" component={PostNew} />
+          <Route path="/posts/:id" component={PostDetail} />
           <Route path="/" component={PostList} />
         </Switch>
       </div>
