@@ -2,6 +2,10 @@
     margin: 10px 0;
 }
 
+.post-detail h3 {
+    margin: 10px 0;
+}
+
 .post-new .btn-secondary {
     margin-right: 10px;
 }
